@@ -116,7 +116,7 @@ section {
     width: 670px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 2px 3px 4px;
+    box-shadow: 2px 1px 18px;
     margin-left: 425px;
 }
 
@@ -262,24 +262,27 @@ div#inputWrapper {
     font-size: 25px;
     color: rgb(26, 25, 25);
     text-transform: uppercase;
-    letter-spacing: -1.5px;
+    letter-spacing: -1px;
 }
 
 .mail a {
     text-decoration: none;
     color: #363958;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
+    letter-spacing: -1.5px;
 }
 
 .social {
     width: 1270px;
     margin: auto;
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 
-.social i {
-    font-size: 30px;
-    padding: 10px;
-    color: #3f729b;
+.social img {
+    height: 40px;
+    width: 40px;
+    padding: 15px;
 }
